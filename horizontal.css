@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Great Vibes", cursive;
+}
+nav{
+   background-color: black;
+}
+#cont{
+    /* display: flex; */
+    /* justify-content:baseline; */
+    gap: 40px; 
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    color:lightyellow;
+    padding: 20px;
+}
+#veg{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+#onn{
+    padding:0;
+    margin: 0;
+    position: absolute;
+    /* top:63px; */
+    left: 100%;
+    /* color:black; */
+    background-color:lightsalmon;
+    /* display: none; */
+
+}
+#veg:hover #onn{
+    transition: 3s;
+    display: block;
+
+}
+#onn li a{
+    color: black;
+    display: block;
+    padding: 15px;
+    /* border: 1px solid black; */
+    border-bottom: 2px solid black;
+}
+
+#two li a{
+    color: brown;
+    display: block;
+    padding: 15px;
+}
+#two{
+    padding: 0;
+    /* position: absolute; */
+    /* top: 63px; */
+    background-color:aqua;
+    display: none;
+    /* border: 1px solid black; */
+}
+#non:hover #two{
+    transition: 3s;
+    display: block;
+}
+#non li a{
+    color: black;
+    display: block;
+    padding: 15px;
+    /* border: 1px solid black; */
+    border-bottom: 2px solid black;
+}
+#soft {
+    display: none;
+}
+#hard{
+    display: none;
+}
+#drink:hover #soft{
+    transition: 3s;
+    display:block;
+}
+#drink:hover #hard{
+    transition: 3s;
+    display: block              ;
+}
+#cheap{
+    background-color: lightcyan;
+    padding: 0;
+    /* position: absolute; */
+    /* left:30px; */
+    /* padding: ; */
+    display: none;
+    width: 90%;
+}
+#cheap li a{
+    padding: 10px;
+    color: darkviolet;
+    display: block;
+    /* border: 1px solid black; */
+    border-bottom: 2px solid black;
+}
+#soft:hover #cheap{
+    transition: 3s;
+    display: block;
+}
+#costly{
+    background-color:darkorchid;
+    padding: 0;
+    display: none;
+}
+#costly li a{
+    padding: 20px;
+    color:lightgray;
+    display: block;
+    /* border: 1px solid black; */
+    border-bottom: 2px solid black;
+}
+#hard:hover #costly{
+    transition: 3s;
+    display: block;
+}
